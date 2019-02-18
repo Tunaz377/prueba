@@ -1,0 +1,110 @@
+
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+body /*color de fondo*/
+{
+
+	background: #333;
+	color:#FFF;
+}
+
+
+
+@media (min-width:768px) /*Response*/
+{
+   #contenedor 
+   {
+
+	width: 960px; /**ancho del contenedor **/
+	background: #FF9999;
+	margin: auto;  /**centrado medidas **/
+	margin-top: 20px;  /**espacio superior**/	
+	margin-bottom: 20px; /** espacio interior**/
+	border-radius: 20px;
+	overflow: hidden;
+  }
+}
+
+
+header
+{
+	height: 150px;/*es el encabezado*/
+	background: #111;
+}
+
+header h1
+{
+	font.size: 50px; /**tamaño **/
+	text-align: center; /**centrado shavo DEL ENCABEZADO**/
+	line-height: 150px; /** centrado verticalmente**/
+}
+
+@media (min-width:768px) /*Response*/
+{
+
+
+  nav 
+ {
+	background: #CCFF09;/** colo del menu**/
+	height: 60px;/*son los links*/
+	text-align:  center;/**centrado **/
+
+  } 
+}
+nav h2
+{
+	font-size: 30px;
+	line-height:  60px;
+
+}
+
+@media (min-width:768px) /*Response*/
+{
+
+
+  #contenido 
+  {
+	width: 700px;
+	height: 500px;
+	float: right;/** flote la izquierdo**/
+	background: #333FFF;
+	margin-top: 10px;
+	margin-right:  10px;
+	margin-left: 10px;
+	text-align: center;
+  }
+}
+
+
+aside
+{
+	width: 250px;/*creo es el pie de pagina*/
+	height: 500px;
+	background: #FF9999;
+	margin-top: 10px;
+	float: left;/*mover lo de LUGAR*/
+}
+footer 
+{
+	background: #000;
+	clear: both;/** rompe la propiedad para que no interfieran en los **/ 
+}
+
+@media (min-width:768px) /*Response*/
+{
+ #derecha
+ {
+	width: 600px;/*creo es el pie de pagina*/
+	height: 800px;
+	background: #FF0000;
+	margin-top: 10px;
+	margin-right: 100px;
+	float: right;/*mover lo de LUGAR*/
+ }
+ 
